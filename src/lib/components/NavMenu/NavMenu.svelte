@@ -17,7 +17,7 @@
 		{ title: 'About', to: '/about' },
 		{
 			title: 'Resume',
-			to: ''
+			to: '/resume'
 		}
 	];
 
