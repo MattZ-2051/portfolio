@@ -50,7 +50,19 @@ export const items: Array<Project> = [
 		logo: Assets.ReactJs,
 		name: 'Picstagram (Instagram Clone)',
 		skills: getSkills('html','css', 'js', 'python'),
-	}
+	},
+  {
+		slug: 'infinite-ui-v2',
+		color: 'blue',
+		description:
+			'Former repo for white label digital marketplace used for various clients like McLaren, and Seva',
+		shortDescription:
+			'Former repo for white label digital marketplace used for various clients like McLaren, and Seva.',
+		links: [{ to: 'https://github.com/MattZ-2051/infinite-ui-v2-legacy', label: 'GitHub' }],
+		logo: Assets.Svelte,
+		name: 'Infinite Digital White Label Marketplace',
+		skills: getSkills('html','css', 'js', 'svelte'),
+	},
 
 
 ];
