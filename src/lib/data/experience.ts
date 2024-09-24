@@ -8,14 +8,14 @@ export const items: Array<Experience> = [
 		company: 'LandProData',
 		description: `Worked on automating various tasks with python and converting legacy PHP services to python. This was a 3 month contract where I was tasked with
     re-writing some services written in PHP to python. The services consisted of reading PDF data with Google OCR and then modifying and storing that data on Google Cloud.
-    In this position I learned how to establish and use FTP connections with the python client and use Google Vision AI.
-    Configured and created python virtual environment with proper env variables and CI. Setup SQL tables and relationships between models. 
-    
+    In this position I learned how to establish and use FTP connections wih the python client and use Google Vision AI.
+    Configured and created python virtual environment with proper env variables and CI. Setup SQL tables and relationships between models.
+
     `,
 		contract: ContractType.Contract,
 		type: 'Software Development',
 		location: 'Boise',
-		period: { from: new Date(2021, 0, 1), to: new Date(2021, 2, 1) },
+		period: { from: new Date(2022, 0, 1), to: new Date(2022, 2, 1) },
 		skills: getSkills('python', 'postgresql'),
 		name: 'Backend Developer',
 		color: 'red',
@@ -77,7 +77,7 @@ export const items: Array<Experience> = [
 	{
 		slug: 'fpi',
 		company: 'FPI Management',
-		description: `FPI Management is a apartment management company in San Diego. My job resposibilites included managing resident accounts through RealPage software. Handling maintenance requests and making sure 
+		description: `FPI Management is a apartment management company in San Diego. My job resposibilites included managing resident accounts through RealPage software. Handling maintenance requests and making sure
 they are completed. Processing invoices from 3rd party vendors. Using bilingual skills in Spanish to assist residents who don't speak English. Using microsoft excel, word, office to complete job duties. I am also
 the main point of contact for any software or tech related issues with windows or systems managment.`,
 		contract: ContractType.FullTime,
