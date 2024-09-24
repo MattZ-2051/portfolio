@@ -1,4 +1,4 @@
-import{A as e}from"./index.f9c8ae2f.js";import{g as t}from"./skills.c25a299e.js";import{C as n}from"./types.1ebf2f37.js";const s=[{slug:"landprodata",company:"LandProData",description:`Worked on automating various tasks with python and converting legacy PHP services to python. This was a 3 month contract where I was tasked with
+import{A as e}from"./index.318b650f.js";import{g as t}from"./skills.1fc4676a.js";import{C as n}from"./types.1ebf2f37.js";const s=[{slug:"landprodata",company:"LandProData",description:`Worked on automating various tasks with python and converting legacy PHP services to python. This was a 3 month contract where I was tasked with
     re-writing some services written in PHP to python. The services consisted of reading PDF data with Google OCR and then modifying and storing that data on Google Cloud.
     In this position I learned how to establish and use FTP connections wih the python client and use Google Vision AI.
     Configured and created python virtual environment with proper env variables and CI. Setup SQL tables and relationships between models.
