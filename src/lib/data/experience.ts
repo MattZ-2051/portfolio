@@ -36,36 +36,6 @@ export const items: Array<Experience> = [
 	},
 
 	{
-		slug: 'fandem',
-		company: 'Fandem',
-		description: `Drove development and implementation of features for front-end applications in Typescript, React. In this contract role my main objectice wa
-was to drive feature implentations and work closely with PM's to meet deadlines. Worked on integrating and improving web3 experience for online marketplace. Implemented secure payments and auth. Managed deployment and devops of app in google cloud platform.
-    `,
-		contract: ContractType.Freelance,
-		type: 'Frontend Development',
-		location: 'Home',
-		period: { from: new Date(2022, 1, 1), to: new Date(2022, 12, 31) },
-		skills: getSkills(
-			'svelte',
-			'reactjs',
-			'ts',
-			'tailwind',
-			'GC Platform',
-			'css',
-			'html',
-			'js',
-			'',
-			'jest'
-		),
-		name: 'Full Stack Developer',
-		color: 'blue',
-		links: [],
-		logo: Assets.Unknown,
-		shortDescription: `Drove development and implementation of features for front-end applications in Typescript, React. In this contract role my main objectice wa
-was to drive feature implentations and work closely with PM's to meet deadlines.`
-	},
-
-	{
 		slug: 'adprompt',
 		company: 'AdPrompt',
 		description: `Manage and review PR's for FE and BE from team composed of 4 outsourced developers ensuring code is up to standard..
