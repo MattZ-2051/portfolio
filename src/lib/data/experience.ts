@@ -43,7 +43,7 @@ Work on and manage multiple active projects with quick delivery changes in featu
 		contract: ContractType.Freelance,
 		type: 'Senior Software Engineer',
 		location: 'Boise ID',
-		period: { from: new Date(2022, 1, 1), to: new Date(2022, 12, 31) },
+		period: { from: new Date(2024, 3, 1), to: new Date(2025, 0, 1) },
 		skills: getSkills('nestjs', 'nextjs', 'ts', 'tailwind', 'aws', 'css', 'html', 'js', 'jest'),
 		name: 'Senior Software Engineer',
 		color: 'blue',
