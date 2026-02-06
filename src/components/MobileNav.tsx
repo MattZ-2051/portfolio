@@ -22,8 +22,14 @@ const MobileNav = () => {
       {/* Top bar */}
       <div className="fixed left-0 right-0 top-0 z-50 flex items-center justify-between border-b border-border bg-sidebar px-4 py-3">
         <div className="flex items-center gap-3">
-          <img src={avatarImg} alt="John Doe" className="h-8 w-8 rounded-full object-cover" />
-          <span className="text-sm font-semibold text-foreground">John Doe</span>
+          <img
+            src={avatarImg}
+            alt="John Doe"
+            className="h-8 w-8 rounded-full object-cover"
+          />
+          <span className="text-sm font-semibold text-foreground">
+            Matt Zamora
+          </span>
         </div>
         <div className="flex items-center gap-1">
           <ThemeToggle />
