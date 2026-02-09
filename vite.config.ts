@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
-  base: "/",
+  base: "/z-portfolio/",
   plugins: [react(), mode === "development" && componentTagger()].filter(
     Boolean,
   ),

@@ -21,11 +21,11 @@ const App = () => (
         <Sonner />
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Index />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/articles" element={<Articles />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/z-portfolio" element={<Index />} />
+            <Route path="/z-portfolio/about" element={<About />} />
+            <Route path="/z-portfolio/projects" element={<Projects />} />
+            <Route path="/z-portfolio/articles" element={<Articles />} />
+            <Route path="/z-portfolio/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
