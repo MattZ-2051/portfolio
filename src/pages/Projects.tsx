@@ -13,8 +13,8 @@ const Projects = () => {
       >
         <h1 className="text-3xl font-bold text-foreground">Projects</h1>
         <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-          Here are some of the projects I've been working on. Each one represents a unique challenge 
-          and learning opportunity.
+          Here are some of the projects I've been working on. Each one
+          represents a unique challenge and learning opportunity.
         </p>
       </motion.div>
 
@@ -23,10 +23,6 @@ const Projects = () => {
           <ProjectCard key={project.title} project={project} index={i} />
         ))}
       </div>
-
-      <footer className="mt-16 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-        {new Date().getFullYear()} — Built by John Doe
-      </footer>
     </PortfolioLayout>
   );
 };

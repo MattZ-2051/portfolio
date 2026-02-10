@@ -6,11 +6,10 @@ import avatarImg from "@/assets/avatar.jpg";
 import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
-  { label: "Home", path: "/", icon: Home },
-  { label: "About", path: "/about", icon: User },
-  { label: "Projects", path: "/projects", icon: FolderOpen },
-  { label: "Articles", path: "/articles", icon: FileText },
-  { label: "Contact", path: "/contact", icon: Mail },
+  { label: "Home", path: "/z-portfolio/", icon: Home },
+  { label: "About", path: "/z-portfolio/about", icon: User },
+  { label: "Projects", path: "/z-portfolio/projects", icon: FolderOpen },
+  { label: "Contact", path: "/z-portfolio/contact", icon: Mail },
 ];
 
 const MobileNav = () => {
@@ -24,7 +23,7 @@ const MobileNav = () => {
         <div className="flex items-center gap-3">
           <img
             src={avatarImg}
-            alt="John Doe"
+            alt="Matt Zamora"
             className="h-8 w-8 rounded-full object-cover"
           />
           <span className="text-sm font-semibold text-foreground">

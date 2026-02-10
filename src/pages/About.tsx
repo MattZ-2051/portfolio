@@ -14,7 +14,10 @@ const About = () => {
 
         <div className="mt-8 space-y-4">
           {aboutContent.paragraphs.map((p, i) => (
-            <p key={i} className="text-base leading-relaxed text-muted-foreground">
+            <p
+              key={i}
+              className="text-base leading-relaxed text-muted-foreground"
+            >
               {p}
             </p>
           ))}
@@ -42,7 +45,9 @@ const About = () => {
               <h3 className="mt-1 font-sans text-base font-semibold text-foreground">
                 {exp.role}
               </h3>
-              <p className="text-sm font-medium text-muted-foreground">{exp.company}</p>
+              <p className="text-sm font-medium text-muted-foreground">
+                {exp.company}
+              </p>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
                 {exp.description}
               </p>
@@ -50,10 +55,6 @@ const About = () => {
           ))}
         </div>
       </section>
-
-      <footer className="mt-16 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-        {new Date().getFullYear()} — Built by John Doe
-      </footer>
     </PortfolioLayout>
   );
 };

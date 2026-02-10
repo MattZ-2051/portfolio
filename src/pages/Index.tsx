@@ -13,9 +13,8 @@ const Index = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <span className="text-4xl">👋</span>
         <h1 className="mt-4 text-3xl font-bold leading-tight text-foreground sm:text-4xl">
-          Hello there! I'm John
+          Hey there! I'm Matt
         </h1>
         <p className="mt-4 text-base leading-relaxed text-muted-foreground">
           {profile.bio}
@@ -44,11 +43,6 @@ const Index = () => {
         </h2>
         <TechStackGrid />
       </section>
-
-      {/* Footer */}
-      <footer className="mt-16 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-        {new Date().getFullYear()} — Built by John Doe
-      </footer>
     </PortfolioLayout>
   );
 };

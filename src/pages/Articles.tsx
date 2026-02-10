@@ -4,17 +4,20 @@ import PortfolioLayout from "@/components/PortfolioLayout";
 const articles = [
   {
     title: "Building Scalable React Applications",
-    excerpt: "A deep dive into architectural patterns that help React apps scale gracefully as complexity grows.",
+    excerpt:
+      "A deep dive into architectural patterns that help React apps scale gracefully as complexity grows.",
     date: "Jan 2026",
   },
   {
     title: "The Art of Performance Optimization",
-    excerpt: "Learn techniques to make your web applications blazingly fast with practical tips and real-world examples.",
+    excerpt:
+      "Learn techniques to make your web applications blazingly fast with practical tips and real-world examples.",
     date: "Dec 2025",
   },
   {
     title: "Why TypeScript Changed How I Code",
-    excerpt: "My journey from JavaScript to TypeScript and why I'll never go back.",
+    excerpt:
+      "My journey from JavaScript to TypeScript and why I'll never go back.",
     date: "Nov 2025",
   },
 ];
@@ -29,7 +32,8 @@ const Articles = () => {
       >
         <h1 className="text-3xl font-bold text-foreground">Articles</h1>
         <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-          I write about web development, software engineering, and lessons learned along the way.
+          I write about web development, software engineering, and lessons
+          learned along the way.
         </p>
       </motion.div>
 
@@ -55,10 +59,6 @@ const Articles = () => {
           </motion.a>
         ))}
       </div>
-
-      <footer className="mt-16 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-        {new Date().getFullYear()} — Built by John Doe
-      </footer>
     </PortfolioLayout>
   );
 };

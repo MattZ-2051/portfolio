@@ -1,14 +1,11 @@
 export const profile = {
-  name: "John Doe",
+  name: "Matt Zamora",
   role: "Developer",
-  bio: "I'm a full-stack developer that loves building products and web apps that can impact millions of lives",
   description:
-    "I'm a senior software engineer with 7 years of experience building scalable web apps that are performance optimized and good looking.",
-  email: "john@example.com",
+    "I'm a senior software engineer with 5 years of experience building scalable web apps that are performance optimized and good looking.",
+  email: "mzamora2899@gmail.com",
   socials: {
-    twitter: "https://twitter.com",
-    linkedin: "https://linkedin.com",
-    youtube: "https://youtube.com",
+    linkedin: "https://www.linkedin.com/in/matt-zamora-95b38316b/",
   },
 };
 
@@ -57,39 +54,59 @@ export const projects: Project[] = [
 
 export const techStack = [
   "React",
+  "NextJs",
+  "SvelteKit",
+  "PHP",
+  "NestJS",
   "TypeScript",
   "Node.js",
+  "CSS",
+  "Material UI",
   "Tailwind CSS",
+  "MongoDB",
   "PostgreSQL",
   "AWS",
   "Docker",
+  "Jest",
+  "Storybook",
   "Figma",
 ];
 
 export const aboutContent = {
   paragraphs: [
-    "I'm a passionate full-stack developer based in San Francisco, with a deep love for creating elegant, performant web applications that make a real difference in people's lives.",
-    "Over the past 7 years, I've had the privilege of working with startups and established companies alike, helping them build products that scale to millions of users.",
-    "When I'm not coding, you'll find me exploring new technologies, contributing to open source projects, or sharing my knowledge through blog posts and tech talks.",
+    "I'm full-stack developer based in Boise Idaho, with a deep love for creating elegant, performant web applications that make a real difference in people's lives.",
+    "Over the past 5 years, I've had the privilege of working with startups and established companies alike, helping them build products that scale.",
+    "I enjoy learning new things in the world of software what new tech people in the industry are using, or building side projects. Besides my love for coding I am also a fitness fanatic, when I'm not coding I enjoy lifting weights or training and competing in the sport of Jiu Jitsu.",
   ],
   experience: [
     {
-      role: "Senior Software Engineer",
-      company: "TechCorp",
-      period: "2022 — Present",
-      description: "Leading frontend architecture and building scalable web applications.",
+      role: "Senior Software Engineer / Lead Software Engineer (Contract / Full Time)",
+      company: "Viiision",
+      period: "Mar 2025 — Feb 2026",
+      description:
+        "Lead software development team of 3 engineers building scalable web applications.",
     },
     {
-      role: "Full Stack Developer",
-      company: "StartupXYZ",
-      period: "2020 — 2022",
-      description: "Built core product features and improved performance by 40%.",
+      role: "Senior Software Engineer (Contract)",
+      company: "AdPrompt AI",
+      period: "May 2024 — Feb 2025",
+      description:
+        "Reviewed code and led team of 4 programmers consisting of outsourced and in house developers owning features from end to end and reporting to CEO.",
     },
     {
-      role: "Frontend Developer",
-      company: "WebAgency",
-      period: "2018 — 2020",
-      description: "Developed responsive web applications for various clients.",
+      role: "Full Stack Engineer (Contract)",
+      company: "Fandem",
+      period: "Mar 2023 — Mar 2024",
+      description:
+        "Developed marketplace to purchase and sell digital collectibles using various payment methods like fiat and crypto for GlorySmacks Kickboxing league.",
+    },
+
+    {
+      role: "Junior Full Stack Engineer / Full Stack Engineer",
+      company: "Suku / Infinite",
+      period: "Mar 2021 — Dev 2022",
+      description:
+        "Crafted NFT NYC award winning marketplace from concept to production use by McLaren for their digital collectible release. Our team implemented designs that met the high-end standards of this renowned brand.The campaign generated $2.5M and sold out in 72 hours.",
     },
   ],
 };

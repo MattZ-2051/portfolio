@@ -3,10 +3,18 @@ import { Mail, Twitter, Linkedin, Youtube } from "lucide-react";
 import PortfolioLayout from "@/components/PortfolioLayout";
 
 const contactLinks = [
-  { label: "Email", value: "john@example.com", href: "mailto:john@example.com", icon: Mail },
-  { label: "Twitter", value: "@johndoe", href: "https://twitter.com", icon: Twitter },
-  { label: "LinkedIn", value: "John Doe", href: "https://linkedin.com", icon: Linkedin },
-  { label: "YouTube", value: "John Doe", href: "https://youtube.com", icon: Youtube },
+  {
+    label: "Email",
+    value: "mzamora2899@gmail.com",
+    href: "mailto:mzamora2899@gmail.com",
+    icon: Mail,
+  },
+  {
+    label: "LinkedIn",
+    value: "Matt Zamora",
+    href: "https://www.linkedin.com/in/matt-zamora-95b38316b/",
+    icon: Linkedin,
+  },
 ];
 
 const Contact = () => {
@@ -19,8 +27,9 @@ const Contact = () => {
       >
         <h1 className="text-3xl font-bold text-foreground">Contact</h1>
         <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-          I'm always open to new opportunities, collaborations, or just a friendly chat. 
-          Feel free to reach out through any of the channels below.
+          I'm always open to new opportunities, collaborations, or just a
+          friendly chat. Feel free to reach out through any of the channels
+          below.
         </p>
       </motion.div>
 
@@ -40,16 +49,14 @@ const Contact = () => {
               <link.icon className="h-5 w-5" />
             </div>
             <div>
-              <p className="text-sm font-semibold text-card-foreground">{link.label}</p>
+              <p className="text-sm font-semibold text-card-foreground">
+                {link.label}
+              </p>
               <p className="text-sm text-muted-foreground">{link.value}</p>
             </div>
           </motion.a>
         ))}
       </div>
-
-      <footer className="mt-16 border-t border-border pt-6 text-center text-sm text-muted-foreground">
-        {new Date().getFullYear()} — Built by John Doe
-      </footer>
     </PortfolioLayout>
   );
 };

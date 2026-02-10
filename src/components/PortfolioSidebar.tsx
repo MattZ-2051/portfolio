@@ -1,21 +1,30 @@
 import { NavLink, useLocation } from "react-router-dom";
-import { Home, User, FolderOpen, FileText, Mail, Twitter, Linkedin, Youtube, ArrowRight } from "lucide-react";
+import {
+  Home,
+  User,
+  FolderOpen,
+  FileText,
+  Mail,
+  Linkedin,
+  ArrowRight,
+} from "lucide-react";
 import { motion } from "framer-motion";
 import avatarImg from "@/assets/avatar.jpg";
 import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
-  { label: "Home", path: "/", icon: Home },
-  { label: "About", path: "/about", icon: User },
-  { label: "Projects", path: "/projects", icon: FolderOpen },
-  { label: "Articles", path: "/articles", icon: FileText },
-  { label: "Contact", path: "/contact", icon: Mail },
+  { label: "Home", path: "/z-portfolio/", icon: Home },
+  { label: "About", path: "/z-portfolio/about", icon: User },
+  { label: "Projects", path: "/z-portfolio/projects", icon: FolderOpen },
+  { label: "Contact", path: "/z-portfolio/contact", icon: Mail },
 ];
 
 const socialItems = [
-  { label: "Twitter", href: "https://twitter.com", icon: Twitter },
-  { label: "LinkedIn", href: "https://linkedin.com", icon: Linkedin },
-  { label: "YouTube", href: "https://youtube.com", icon: Youtube },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/matt-zamora-95b38316b/",
+    icon: Linkedin,
+  },
 ];
 
 const PortfolioSidebar = () => {
@@ -32,7 +41,7 @@ const PortfolioSidebar = () => {
             className="h-10 w-10 rounded-full object-cover"
           />
           <div>
-            <p className="text-sm font-semibold text-foreground">John Doe</p>
+            <p className="text-sm font-semibold text-foreground">Matt Zamora</p>
             <p className="text-xs text-muted-foreground">Developer</p>
           </div>
         </div>
@@ -91,7 +100,7 @@ const PortfolioSidebar = () => {
       {/* Resume Button */}
       <div className="mt-auto">
         <a
-          href="#"
+          href="/z-portfolio/resume"
           className="group flex items-center gap-2 rounded-lg bg-foreground px-4 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
         >
           Read Resume
