@@ -19,36 +19,28 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "DevDash",
+    title: "AgentBoost AI",
     description:
-      "A comprehensive analytics dashboard for developers to track their productivity and code metrics.",
-    tags: ["React", "TypeScript", "Tailwind"],
+      "A web app for real estate agents providing AI assisted tools for social media and marketing.",
+    tags: ["Sveltekit", "NestJS", "Tailwind"],
     image: "project-1",
-    href: "#",
+    href: "https://agentboost-ai.io/",
   },
   {
-    title: "CodeForge",
-    description:
-      "Practice for technical interviews with hands-on coding challenges and real-time feedback.",
-    tags: ["React", "Node.js", "PostgreSQL"],
+    title: "Evlo Salon Website",
+    description: "Website for small business Evlo Salon Suites",
+    tags: ["React", "Node.js"],
     image: "project-2",
     href: "#",
   },
+
   {
-    title: "WriteFlow",
+    title: "Ethereum blockchain projects",
     description:
-      "Never write from scratch again with WriteFlow, your AI-first writing tool for developers.",
-    tags: ["React", "AI", "Tailwind"],
+      "Projects built while taking a 3 month course studying the Ethereum blockchain and Solidity programming",
+    tags: ["Solidity", "JavaScript"],
     image: "project-3",
-    href: "#",
-  },
-  {
-    title: "UI Toolkit",
-    description:
-      "A beautiful and comprehensive component library for building modern web applications.",
-    tags: ["React", "Tailwind", "Storybook"],
-    image: "project-4",
-    href: "#",
+    href: "https://github.com/MattZ-2051/into-the-ether",
   },
 ];
 
