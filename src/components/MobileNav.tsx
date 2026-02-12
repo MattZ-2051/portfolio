@@ -6,10 +6,10 @@ import avatarImg from "@/assets/avatar.jpg";
 import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
-  { label: "Home", path: "/z-portfolio/", icon: Home },
-  { label: "About", path: "/z-portfolio/about", icon: User },
-  { label: "Projects", path: "/z-portfolio/projects", icon: FolderOpen },
-  { label: "Contact", path: "/z-portfolio/contact", icon: Mail },
+  { label: "Home", path: "/portfolio/", icon: Home },
+  { label: "About", path: "/portfolio/about", icon: User },
+  { label: "Projects", path: "/portfolio/projects", icon: FolderOpen },
+  { label: "Contact", path: "/portfolio/contact", icon: Mail },
 ];
 
 const MobileNav = () => {

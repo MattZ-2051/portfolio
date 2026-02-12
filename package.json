@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://gitname.github.io/z-portfolio",
+  "homepage": "https://gitname.github.io/portfolio",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

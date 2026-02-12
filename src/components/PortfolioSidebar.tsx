@@ -13,10 +13,10 @@ import avatarImg from "@/assets/avatar.jpg";
 import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
-  { label: "Home", path: "/z-portfolio/", icon: Home },
-  { label: "About", path: "/z-portfolio/about", icon: User },
-  { label: "Projects", path: "/z-portfolio/projects", icon: FolderOpen },
-  { label: "Contact", path: "/z-portfolio/contact", icon: Mail },
+  { label: "Home", path: "/portfolio/", icon: Home },
+  { label: "About", path: "/portfolio/about", icon: User },
+  { label: "Projects", path: "/portfolio/projects", icon: FolderOpen },
+  { label: "Contact", path: "/portfolio/contact", icon: Mail },
 ];
 
 const socialItems = [
@@ -100,7 +100,7 @@ const PortfolioSidebar = () => {
       {/* Resume Button */}
       <div className="mt-auto">
         <a
-          href="/z-portfolio/resume"
+          href="/portfolio/resume"
           className="group flex items-center gap-2 rounded-lg bg-foreground px-4 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
         >
           Read Resume
