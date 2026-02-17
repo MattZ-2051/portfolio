@@ -95,7 +95,7 @@ export const aboutContent = {
     {
       role: "Full Stack Engineer (Contract)",
       company: "Fandem",
-      period: "Mar 2023 — Mar 2024",
+      period: "Mar 2023 — Dec 2023",
       description:
         "Developed marketplace to purchase and sell digital collectibles using various payment methods like fiat and crypto for GlorySmacks Kickboxing league.",
     },
