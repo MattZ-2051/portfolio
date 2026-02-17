@@ -22,18 +22,25 @@ export const projects: Project[] = [
     title: "AgentBoost AI",
     description:
       "A web app for real estate agents providing AI assisted tools for social media and marketing.",
-    tags: ["Sveltekit", "NestJS", "Tailwind"],
+    tags: ["Sveltekit", "NestJS", "TailwindCSS"],
     image: "project-1",
     href: "https://agentboost-ai.io/",
   },
   {
     title: "Evlo Salon Website",
     description: "Website for small business Evlo Salon Suites",
-    tags: ["React", "Node.js"],
+    tags: ["SvelteKit", "TailwindCSS"],
     image: "project-2",
     href: "#",
   },
 
+  {
+    title: "Martis Cleaning Website",
+    description: "Website for small business Martis Cleaning Service",
+    tags: ["React", "TailwindCSS"],
+    image: "project-4",
+    href: "https://martis-cleaning.com/",
+  },
   {
     title: "Ethereum blockchain projects",
     description:
