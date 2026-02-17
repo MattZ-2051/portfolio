@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import PortfolioLayout from "@/components/PortfolioLayout";
 import ProjectCard from "@/components/ProjectCard";
 import TechStackGrid from "@/components/TechStackGrid";
-import { profile, projects } from "@/data/portfolio";
+import { profile, homeProjects } from "@/data/portfolio";
 
 const Index = () => {
   return (
@@ -30,7 +30,7 @@ const Index = () => {
           What I've been working on
         </h2>
         <div className="flex flex-col gap-8">
-          {projects.map((project, i) => (
+          {homeProjects.map((project, i) => (
             <ProjectCard key={project.title} project={project} index={i} />
           ))}
         </div>
