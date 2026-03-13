@@ -27,7 +27,8 @@ const Index = () => {
       {/* Projects Section */}
       <section className="mt-16">
         <h2 className="mb-8 text-xl font-semibold text-foreground">
-          What I've been working on
+          Some of my personal professional work. These are business websites or
+          apps I have built myself.
         </h2>
         <div className="flex flex-col gap-8">
           {homeProjects.map((project, i) => (

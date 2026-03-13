@@ -2,7 +2,7 @@ export const profile = {
   name: "Matt Zamora",
   role: "Developer",
   description:
-    "I'm a senior software engineer with 5 years of experience building scalable web apps that are performance optimized and good looking.",
+    "I'm a software engineer with 5 years of experience building scalable web apps that are performance optimized and good looking.",
   email: "mzamora2899@gmail.com",
   socials: {
     linkedin: "https://www.linkedin.com/in/matt-zamora-95b38316b/",
@@ -35,6 +35,22 @@ export const homeProjects: Project[] = [
   },
 
   {
+    title: "North Ridge Backyards Website",
+    description: "Website for small business North Ridge Backyards",
+    tags: ["React", "TailwindCSS"],
+    image: "northridgebackyards",
+    href: "https://northridgebackyards.com/",
+  },
+
+  {
+    title: "Treasure Valley Windows",
+    description:
+      "Website for small business Treasure Valley Windows and Power Wash",
+    tags: ["React", "TailwindCSS"],
+    image: "treasurevalleywindows",
+    href: "https://treasurevalleywindows.com/",
+  },
+  {
     title: "Martis Cleaning Website",
     description: "Website for small business Martis Cleaning Service",
     tags: ["React", "TailwindCSS"],
@@ -60,6 +76,22 @@ export const projects: Project[] = [
   },
 
   {
+    title: "North Ridge Backyards Website",
+    description: "Website for small business North Ridge Backyards",
+    tags: ["React", "TailwindCSS"],
+    image: "northridgebackyards",
+    href: "https://northridgebackyards.com/",
+  },
+
+  {
+    title: "Treasure Valley Windows",
+    description:
+      "Website for small business Treasure Valley Windows and Power Wash",
+    tags: ["React", "TailwindCSS"],
+    image: "treasurevalleywindows",
+    href: "https://treasurevalleywindows.com/",
+  },
+  {
     title: "Martis Cleaning Website",
     description: "Website for small business Martis Cleaning Service",
     tags: ["React", "TailwindCSS"],
@@ -69,10 +101,19 @@ export const projects: Project[] = [
   {
     title: "Ethereum blockchain projects",
     description:
-      "Projects built while taking a 3 month course studying the Ethereum blockchain and Solidity programming",
+      "Projects built while taking a 3 month course from Metana studying the Ethereum blockchain and Solidity programming",
     tags: ["Solidity", "JavaScript"],
     image: "project-3",
-    href: "https://github.com/MattZ-2051/into-the-ether",
+    href: "https://github.com/MattZ-2051/metana-bootcamp",
+  },
+
+  {
+    title: "ThreeJS 3D projects",
+    description:
+      "Projects and coursework using the ThreeJS / webgl library for 3D graphics on the web. This repo is filled with coursework from threejsjourney",
+    tags: ["Solidity", "JavaScript"],
+    image: "project-3",
+    href: "https://github.com/MattZ-2051/threejs",
   },
 ];
 

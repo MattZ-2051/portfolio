@@ -4,12 +4,16 @@ import project1Img from "@/assets/project-1.png";
 import project2Img from "@/assets/project-2.png";
 import project3Img from "@/assets/project-3.png";
 import project4Img from "@/assets/project-4.png";
+import northridgebackyards from "@/assets/northridgebackyards.png";
+import treasurevalleywindows from "@/assets/treasurevalleywindows.png";
 
 const imageMap: Record<string, string> = {
   "project-1": project1Img,
   "project-2": project2Img,
   "project-3": project3Img,
   "project-4": project4Img,
+  northridgebackyards: northridgebackyards,
+  treasurevalleywindows: treasurevalleywindows,
 };
 
 interface ProjectCardProps {
