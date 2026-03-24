@@ -31,9 +31,8 @@ export const homeProjects: Project[] = [
     description: "Website for small business Evlo Salon Suites",
     tags: ["SvelteKit", "TailwindCSS"],
     image: "project-2",
-    href: "#",
+    href: "https://www.evlosalon.com/",
   },
-
   {
     title: "North Ridge Backyards Website",
     description: "Website for small business North Ridge Backyards",
@@ -67,14 +66,14 @@ export const projects: Project[] = [
     image: "project-1",
     href: "https://agentboost-ai.io/",
   },
+
   {
     title: "Evlo Salon Website",
     description: "Website for small business Evlo Salon Suites",
     tags: ["SvelteKit", "TailwindCSS"],
     image: "project-2",
-    href: "#",
+    href: "https://www.evlosalon.com/",
   },
-
   {
     title: "North Ridge Backyards Website",
     description: "Website for small business North Ridge Backyards",
