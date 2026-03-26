@@ -56,11 +56,10 @@ const PortfolioSidebar = () => {
             <NavLink
               key={item.path}
               to={item.path}
-              className={`group relative flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
-                isActive
+              className={`group relative flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${isActive
                   ? "bg-sidebar-accent text-sidebar-accent-foreground font-medium"
                   : "text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
-              }`}
+                }`}
             >
               {isActive && (
                 <motion.div
@@ -100,7 +99,7 @@ const PortfolioSidebar = () => {
       {/* Resume Button */}
       <div className="mt-auto">
         <a
-          href="/portfolio/resume"
+          href="/portfolio/resume/"
           className="group flex items-center gap-2 rounded-lg bg-foreground px-4 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
         >
           Read Resume
