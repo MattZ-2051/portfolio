@@ -6,7 +6,7 @@
   "homepage": "https://gitname.github.io/portfolio",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "build:dev": "vite build --mode development",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
