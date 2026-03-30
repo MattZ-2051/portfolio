@@ -42,6 +42,13 @@ export const homeProjects: Project[] = [
   },
 
   {
+    title: "Gem State Jiu Jitsu",
+    description: "Website for business Gem State Jiu Jitsu",
+    tags: ["React", "TailwindCSS"],
+    image: "gemstate",
+    href: "https://gemstatejiujitsu.com/",
+  },
+  {
     title: "Treasure Valley Windows",
     description:
       "Website for small business Treasure Valley Windows and Power Wash",
@@ -96,6 +103,13 @@ export const projects: Project[] = [
     tags: ["React", "TailwindCSS"],
     image: "project-4",
     href: "https://martis-cleaning.com/",
+  },
+  {
+    title: "Gem State Jiu Jitsu",
+    description: "Website for business Gem State Jiu Jitsu",
+    tags: ["React", "TailwindCSS"],
+    image: "gemstate",
+    href: "https://gemstatejiujitsu.com/",
   },
   {
     title: "Ethereum blockchain projects",

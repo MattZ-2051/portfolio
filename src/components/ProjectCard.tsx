@@ -6,6 +6,7 @@ import project3Img from "@/assets/project-3.png";
 import project4Img from "@/assets/project-4.png";
 import northridgebackyards from "@/assets/northridgebackyards.png";
 import treasurevalleywindows from "@/assets/treasurevalleywindows.png";
+import gemState from "@/assets/gemstate.png";
 
 const imageMap: Record<string, string> = {
   "project-1": project1Img,
@@ -14,6 +15,7 @@ const imageMap: Record<string, string> = {
   "project-4": project4Img,
   northridgebackyards: northridgebackyards,
   treasurevalleywindows: treasurevalleywindows,
+  gemstate: gemState,
 };
 
 interface ProjectCardProps {
