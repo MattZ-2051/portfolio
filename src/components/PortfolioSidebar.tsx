@@ -6,6 +6,7 @@ import {
   FileText,
   Mail,
   Linkedin,
+  Github,
   ArrowRight,
 } from "lucide-react";
 import { motion } from "framer-motion";
@@ -20,6 +21,11 @@ const navItems = [
 ];
 
 const socialItems = [
+  {
+    label: "GitHub",
+    href: "https://github.com/MattZ-2051",
+    icon: Github,
+  },
   {
     label: "LinkedIn",
     href: "https://www.linkedin.com/in/matt-zamora-95b38316b/",
@@ -56,10 +62,11 @@ const PortfolioSidebar = () => {
             <NavLink
               key={item.path}
               to={item.path}
-              className={`group relative flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${isActive
+              className={`group relative flex items-center gap-3 rounded-lg px-3 py-2 text-sm transition-colors ${
+                isActive
                   ? "bg-sidebar-accent text-sidebar-accent-foreground font-medium"
                   : "text-sidebar-foreground hover:bg-sidebar-accent hover:text-sidebar-accent-foreground"
-                }`}
+              }`}
             >
               {isActive && (
                 <motion.div
