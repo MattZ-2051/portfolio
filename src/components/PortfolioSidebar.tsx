@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import avatarImg from "@/assets/avatar.jpg";
+import { profile } from "@/data/portfolio";
 import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
@@ -48,7 +49,7 @@ const PortfolioSidebar = () => {
           />
           <div>
             <p className="text-sm font-semibold text-foreground">Matt Zamora</p>
-            <p className="text-xs text-muted-foreground">Developer</p>
+            <p className="text-xs text-muted-foreground">{profile.role}</p>
           </div>
         </div>
         <ThemeToggle />

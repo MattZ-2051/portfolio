@@ -1,8 +1,9 @@
 import PortfolioLayout from "@/components/PortfolioLayout";
-import ResumePDF from "@/assets/Resume_Matthew_Zamora.pdf";
-import ResumeImg from "@/assets/Resume-img.png";
+import ResumePDF from "@/assets/Matthew_Zamora_Resume_2026.pdf";
 import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
+
+const RESUME_FILENAME = "Matthew_Zamora_Resume_2026.pdf";
 
 const Resume = () => {
   return (
@@ -12,7 +13,7 @@ const Resume = () => {
           <div className="flex items-center justify-between w-full max-w-4xl">
             <h1 className="text-3xl font-bold">Resume</h1>
             <Button asChild>
-              <a href={ResumePDF} download="Resume_Matthew_Zamora.pdf">
+              <a href={ResumePDF} download={RESUME_FILENAME}>
                 <Download className="mr-2 h-4 w-4" />
                 Download PDF
               </a>
@@ -20,11 +21,24 @@ const Resume = () => {
           </div>
 
           <div className="w-full max-w-4xl">
-            <img
-              src={ResumeImg}
-              alt="Resume of Matthew Zamora"
-              className="w-full h-auto rounded-lg shadow-2xl border border-gray-200"
-            />
+            <object
+              data={`${ResumePDF}#view=FitH`}
+              type="application/pdf"
+              aria-label="Resume of Matthew Zamora"
+              className="h-[80vh] min-h-[600px] w-full rounded-lg border border-gray-200 shadow-2xl"
+            >
+              <p className="p-6 text-center text-muted-foreground">
+                Your browser can't display the PDF preview.{" "}
+                <a
+                  href={ResumePDF}
+                  download={RESUME_FILENAME}
+                  className="underline"
+                >
+                  Download the resume
+                </a>{" "}
+                instead.
+              </p>
+            </object>
           </div>
         </div>
       </div>

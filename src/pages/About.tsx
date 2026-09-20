@@ -48,9 +48,11 @@ const About = () => {
               <p className="text-sm font-medium text-muted-foreground">
                 {exp.company}
               </p>
-              <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                {exp.description}
-              </p>
+              <ul className="mt-3 list-disc space-y-2 pl-4 text-sm leading-relaxed text-muted-foreground marker:text-border">
+                {exp.highlights.map((highlight) => (
+                  <li key={highlight}>{highlight}</li>
+                ))}
+              </ul>
             </motion.div>
           ))}
         </div>

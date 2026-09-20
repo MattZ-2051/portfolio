@@ -16,8 +16,8 @@ const Index = () => {
         <h1 className="mt-4 text-3xl font-bold leading-tight text-foreground sm:text-4xl">
           Hey there! I'm Matt
         </h1>
-        <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-          {profile.bio}
+        <p className="mt-2 text-lg font-medium text-foreground">
+          {profile.role}
         </p>
         <p className="mt-3 text-base leading-relaxed text-muted-foreground">
           {profile.description}
