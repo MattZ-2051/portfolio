@@ -9,6 +9,7 @@ import treasurevalleywindows from "@/assets/treasurevalleywindows.png";
 import gemstatejiujitsu from "@/assets/gemstatejiujitsu.png";
 import jiujitsu208 from "@/assets/208jiujitsu.png";
 import ztechsolutions from "@/assets/ztechsolutions.png";
+import hatchApp from "@/assets/hatch-app.png";
 
 const imageMap: Record<string, string> = {
   "project-1": project1Img,
@@ -20,6 +21,7 @@ const imageMap: Record<string, string> = {
   gemstatejiujitsu: gemstatejiujitsu,
   "208jiujitsu": jiujitsu208,
   ztechsolutions: ztechsolutions,
+  "hatch-app": hatchApp,
 };
 
 interface ProjectCardProps {

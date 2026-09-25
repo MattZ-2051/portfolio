@@ -18,6 +18,15 @@ export interface Project {
 }
 
 export const homeProjects: Project[] = [
+
+  {
+    title: "Hatch AI CFO",
+    description:
+      "A AI fractional CFO to help founders raise capital.",
+    tags: ["React", "Supabase", "TailwindCSS"],
+    image: "hatch-app",
+    href: "https://hatch.today/",
+  },
   {
     title: "AgentBoost AI",
     description:
