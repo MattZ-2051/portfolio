@@ -36,7 +36,7 @@ export const homeProjects: Project[] = [
     href: "https://agentboost-ai.io/",
   },
   {
-    title: "Z Teck Solutions",
+    title: "Z Tech Solutions",
     description: "Website for software development agency",
     tags: ['SvelteKit', 'TailwindCSS'],
     image: "ztechsolutions",
